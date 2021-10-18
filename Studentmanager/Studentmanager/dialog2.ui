@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog2</class>
+ <widget class="QDialog" name="Dialog2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="2,15">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="3,9,2">
+     <item>
+      <widget class="QComboBox" name="CB_method">
+       <property name="styleSheet">
+        <string notr="true">font: 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="currentText">
+        <string>请选择查询方式</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>请选择查询方式</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>name</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>num</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>faculty</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="LE_content"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="BT_search">
+       <property name="styleSheet">
+        <string notr="true">font: 11pt &quot;Arial&quot;;
+
+</string>
+       </property>
+       <property name="text">
+        <string>开始查询</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableView" name="tableView"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

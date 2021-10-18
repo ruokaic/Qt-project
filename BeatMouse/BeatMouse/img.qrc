@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/bg">
+        <file>pic/chushi.png</file>
+        <file>pic/chuxian.png</file>
+    </qresource>
+    <qresource prefix="/b">
+        <file>pic/jizhong.png</file>
+        <file>pic/cuizi1.png</file>
+        <file>pic/cuizi2.png</file>
+    </qresource>
+</RCC>
